@@ -5,7 +5,7 @@
             <input type="text" name="author" value="<%= @author %>" />
         </div>
         <div class="six columns">
-            Provide a string to search for against the PubMed publications database (e.g. <code>Micklem G</code>)
+            Provide a string to search for against the PubMed publications database (e.g. <code>Ajioka J</code>)
         </div>
     </div>
 </div>

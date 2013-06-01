@@ -2,7 +2,7 @@
 <head>
     <meta charset="utf-8" />
 
-    <title>Micklem Lab | University of Cambridge</title>
+    <title>Ajioka Lab | University of Cambridge</title>
 
     <link rel="stylesheet" href="/site/css/foundation3.css">
     <link rel="stylesheet" href="/site/css/style.css">
@@ -46,7 +46,7 @@
     <!-- footer funding -->
     <footer class="row">
         <div class="twelve columns">
-            <p>Work at Micklem Lab is funded by:</p>
+            <p>Work at Ajioka Lab is funded by:</p>
             <ul>
                 <li>
                     <a target="_blank" href="http://www.epsrc.ac.uk/"><img src="/site/img/grants-color/epsrc.jpg" /></a>
@@ -64,7 +64,7 @@
                     <a target="_blank" href="http://www.wellcome.ac.uk/"><img src="/site/img/grants-color/wellcome.jpg" /></a>
                 </li>
             </ul>
-            <p>&copy; 2012, Micklem Lab</p>
+            <p>&copy; 2013, Ajioka Lab</p>
         </div>
     </footer>
 </body>

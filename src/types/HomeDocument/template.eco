@@ -1,7 +1,7 @@
 <!-- head menu -->
 <header id="top">
     <div class="row">
-        <h1>Micklem Lab</h1>
+        <h1>Ajioka Lab</h1>
         <h2><a target="_blank" href="http://www.cam.ac.uk/">University <span>of</span> Cambridge</a></h2>
         <nav>
             <ul>
@@ -109,11 +109,11 @@
 
             <ul>
                 <li>
-                    <h2><a target="_blank" href="http://twitter.com/intermineorg/statuses/<%= @tweet.id_str %>"><%= @tweet.text %></a></h2>
+                    <h2><a target="_blank" href="http://twitter.com/big_ben_clock/statuses/<%= @tweet.id_str %>"><%= @tweet.text %></a></h2>
                     <p><%= @tweet.ago %></p>
                 </li>
                 <li>
-                    <p>For more news visit our <a href="/news">Blog</a> or <a target="_blank" href="http://twitter.com/intermineorg/">@intermineorg</a> Twitter page.</p>
+                    <p>For more news visit our <a target="_blank" href="http://twitter.com/big_ben_clock/">@big_ben_clock</a> Twitter page.</p>
                 </li>
             </ul>
         </article>

@@ -6,7 +6,7 @@ kronic = require 'kronic-node'
 
 class exports.HomeDocument extends blað.Type
 
-    twitter: 'http://api.twitter.com/1/statuses/user_timeline.json?screen_name=intermineorg&count=1'
+    twitter: 'http://api.twitter.com/1/statuses/user_timeline.json?screen_name=big_ben_clock&count=1'
 
     render: (done) ->
         # Markdown.

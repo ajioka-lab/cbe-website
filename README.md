@@ -1,4 +1,4 @@
-# Micklem Lab site
+# Ajioka Lab site
 
 ## Getting started
 
