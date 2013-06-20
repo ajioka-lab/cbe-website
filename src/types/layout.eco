@@ -35,7 +35,7 @@
                     <li<%- ' class="active"' if sub is 'resources' %>><a href="/resources">Resources</a></li>
                     <li<%- ' class="active"' if sub is 'funding' %>><a href="/funding">Funding</a></li>
                     <li<%- ' class="active"' if sub is 'teaching' %>><a href="/teaching">Teaching</a></li>
-                    <li><a class="people" href="/people">People</a></li>
+                    <li<%- ' class="active"' if sub is 'people' %>><a class="people" href="/people">People</a></li>
                 </ul>
                 <a class="contact" href="/contact">Contact</a>
             </nav>

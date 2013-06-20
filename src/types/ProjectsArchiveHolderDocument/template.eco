@@ -6,7 +6,7 @@
     </div>
 </div>
 
-<div class="row <%= if @category is 'parasitology' then 'rouge' else if @category is 'synbio' then 'shakespeare' else 'patina' %>">
+<div class="row <%= if @category is 'parasitology' then 'rouge' else if @category is 'synbio' then 'shakespeare' else 'bismark' %>">
     <aside class="sidebar three columns">
         <% if @projects.length isnt 0: %>
             <h2 class="primary">Our past projects</h2>
@@ -23,7 +23,11 @@
         <% end %>
         
         <% if @current: %>
+            <% unless @category is 'teaching': %>
             <h2 class="secondary link"><a href="/<%= @category %>">Current projects</a></h2>
+            <% else: %>
+            <h2 class="primary">Teaching</h2>
+            <% end %>
         <% end %>
     </aside>
 

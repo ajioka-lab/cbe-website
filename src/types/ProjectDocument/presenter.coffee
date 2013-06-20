@@ -12,11 +12,12 @@ class exports.ProjectDocument extends blað.Type
             @archive = false ; @notArchive = false
             @projects = []
             for p in projects
-                if @current and p.current
-                    if p.summary then p.summary = marked p.summary
-                    @projects.push p
-                else
-                    if @current then @archive = true else @notArchive = true
+                if p.category is @category and p.type is 'ProjectDocument'
+                    if @current and p.current
+                        if p.summary then p.summary = marked p.summary
+                        @projects.push p
+                    else
+                        if @current then @archive = true else @notArchive = true
 
             # Markdown.
             @body = marked @body

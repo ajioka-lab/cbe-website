@@ -2,14 +2,18 @@
 <div class="row">
     <div id="splash" class="twelve columns">
         <img src="/site/img/splashes/stomach-long.jpg" />
-        <h1>Projects</h1>
+        <h1><%= if @category is 'parasitology' then 'Parasitology' else if @category is 'synbio' then 'Synthetic Biology' else 'Teaching' %></h1>
     </div>
 </div>
 
-<div class="row <%= if @category is 'parasitology' then 'rouge' else if @category is 'synbio' then 'shakespeare' else 'patina' %>">
+<div class="row <%= if @category is 'parasitology' then 'rouge' else if @category is 'synbio' then 'shakespeare' else 'bismark' %>">
     <aside class="sidebar three columns">
         <% if @projects.length isnt 0: %>
+            <% unless @category is 'teaching': %>
             <h2 class="primary">Our current projects</h2>
+            <% else: %>
+            <h2 class="primary">Teaching</h2>
+            <% end %>
             <nav>
                 <ul>
                     <% for project in @projects: %>

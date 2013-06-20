@@ -10,11 +10,12 @@ class exports.ProjectsArchiveHolderDocument extends blað.Type
             @current = false
             @projects = []
             for p in projects
-                if !p.current and p.type is 'ProjectDocument'
-                    if p.summary then p.summary = marked p.summary
-                    @projects.push p
-                else
-                    @current = true
+                if p.category is @category and p.type is 'ProjectDocument'
+                    if !p.current
+                        if p.summary then p.summary = marked p.summary
+                        @projects.push p
+                    else
+                        @current = true
             
             # We done.
             done @

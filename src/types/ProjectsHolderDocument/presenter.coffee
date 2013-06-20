@@ -9,11 +9,12 @@ class exports.ProjectsHolderDocument extends blað.Type
         @archive = false
         @projects = []
         for p in @children(0)
-            if p.current and p.type is 'ProjectDocument'
-                if p.summary then p.summary = marked p.summary
-                @projects.push p
-            else
-                @archive = true
+            if p.category is @category and p.type is 'ProjectDocument'
+                if p.current
+                    if p.summary then p.summary = marked p.summary
+                    @projects.push p
+                else
+                    @archive = true
 
         # Markdown.
         @body = marked @body
