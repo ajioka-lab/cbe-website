@@ -25,6 +25,15 @@
     </select>
 </div>
 
+<div class="four columns">
+  <label>Project Category</label>
+  <select name="category">
+    <option value="parasitology" <% if @category is 'parasitology': %>selected="selected"<% end %>>Parasitology</option>
+    <option value="synbio" <% if @category is 'synbio': %>selected="selected"<% end %>>Synthetic Biology</option>
+    <option value="teaching" <% if @category is 'teaching': %>selected="selected"<% end %>>Teaching</option>
+  </select>
+</div>
+
 <div class="twelve columns">
     <label>Project summary</label>
     <div class="row">

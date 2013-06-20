@@ -21,8 +21,27 @@
 </head>
 <body>
     <!-- page template goes here -->
+    <!-- head menu -->
+    <header id="top">
+        <div class="row">
+            <h1>Ajioka Lab</h1>
+            <h2><a target="_blank" href="http://www.cam.ac.uk/">University <span>of</span> Cambridge</a></h2>
+            <nav>
+                <ul>
+                    <% sub = (@url.split '/')[1] %>
+                    <li<%- ' class="active"' if @url is '/' %>><a href="/">Home</a></li>
+                    <li<%- ' class="active"' if sub is 'parasitology' %>><a href="/parasitology">Parasitology</a></li>
+                    <li<%- ' class="active"' if sub is 'synbio' %>><a href="/synbio">Synthetic Biology</a></li>
+                    <li<%- ' class="active"' if sub is 'resources' %>><a href="/resources">Resources</a></li>
+                    <li<%- ' class="active"' if sub is 'funding' %>><a href="/funding">Funding</a></li>
+                    <li<%- ' class="active"' if sub is 'teaching' %>><a href="/teaching">Teaching</a></li>
+                    <li><a class="people" href="/people">People</a></li>
+                </ul>
+                <a class="contact" href="/contact">Contact</a>
+            </nav>
+        </div>
+    </header>
     <%- @page %>
-
     <!-- footer links -->
     <footer class="row">
         <div class="twelve columns">

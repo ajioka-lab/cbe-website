@@ -1,23 +1,3 @@
-<!-- head menu -->
-<header id="top">
-    <div class="row">
-        <h1>Ajioka Lab</h1>
-        <h2><a target="_blank" href="http://www.cam.ac.uk/">University <span>of</span> Cambridge</a></h2>
-        <nav>
-            <ul>
-                <li><a href="/">Home</a></li>
-                <li><a href="/projects">Projects</a></li>
-                <li><a href="/resources">Resources</a></li>
-                <li><a href="/funding">Funding</a></li>
-                <li class="active"><a href="/publications">Publications</a></li>
-                <li><a href="/news">News</a></li>
-                <li><a class="people" href="/people">People</a></li>
-            </ul>
-            <a class="contact" href="/contact">Contact</a>
-        </nav>
-    </div>
-</header>
-
 <!-- callout hero banner -->
 <div class="row">
     <div id="splash" class="twelve columns light">
