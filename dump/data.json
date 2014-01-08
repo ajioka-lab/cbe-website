@@ -189,13 +189,13 @@
     },
     {
         "_id": "51c367f5a586514b2a000002",
-        "body": "This is a page with all of the synthetic biology projects",
-        "category": "synbio",
-        "description": "Synthetic Biology Projects",
+        "body": "Engineering has always employed a “belts and braces” approach to design and construction. This is especially important in the area of Biotechnology because it involves self-reproducing systems. We recognize the importance of strict safety and security and are capable of implementing these features in the most appropriate way on a case by case basis. The Arsenic Biosensor that part of our team is working on embodies these concepts as it contains kill switches as well as extreme strain attenuation. This means that it was made so weak compared to normal bacteria that it would have no chance to compete in the natural environment should it be released; and in the eventuality that it does get released it also contains a kill-switch which means that the organism itself will self-destruct. The combination of both these approaches is what makes the application safe for field use. We believe that in the near future, traceability will also become a mandatory failsafe by regulatory bodies./r/gAn emerging aspect in the field of Biotechnology is Bioprotection. The majority of associated costs with Biotechnology come from the development of the product. Manufacturing is highly cost-effective as bacterial GMO’s will only require nutrients and water to replicate indefinitely. But what if a competitor gets a hold of your strain that cost millions of dollars to develop? At present, it is extremely difficult to prove theft of Biologicals. We are currently developing unique methods of fail-safe identification which will stand up in court and give the owner the same rights as he would hold over any other type of product or process. It will also provide the traceability element that we believe will become mandatory by regulatory bodies concerning GMO’s.",
+        "category": "Biosecurity",
+        "description": "Biosecurity",
         "modified": "2013-06-20T20:37:30.442Z",
         "public": true,
         "type": "ProjectsHolderDocument",
-        "url": "/synbio"
+        "url": "/Biosecurity"
     },
     {
         "type": "ProjectsArchiveHolderDocument",
